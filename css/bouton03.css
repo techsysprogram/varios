@@ -1,0 +1,56 @@
+/* ".inherited-styles-for-exported-element" is a generated class for the inherited styles of the exported element, feel free to rename it. */
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+  }
+  
+  .svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+  }
+  
+  .inherited-styles-for-exported-element {
+    font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    font-size: 100%;
+    text-align: center;
+  }
+  
+  a {
+    background-color: #e74c3c;
+    border-radius: 50px;
+    border-style: initial;
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, .1) 0 -25px 18px -14px inset, rgba(230, 77, 59, .15) 0 1px 2px, rgba(230, 77, 59, .15) 0 2px 4px, rgba(230, 77, 59, .15) 0 4px 8px, rgba(230, 77, 59, .15) 0 8px 16px, rgba(230, 77, 59, .15) 0 16px 32px;
+    color: #fff;
+    display: inline-block;
+    line-height: 24px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 200ms;
+    transition-behavior: normal;
+  }
+  
+  @media screen and (min-width: 768px) {
+    a {
+      line-height: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    a:hover {
+      box-shadow: rgba(0, 0, 0, .15) 0 -25px 18px -14px inset, rgba(230, 77, 59, .25) 0 1px 2px, rgba(230, 77, 59, .25) 0 2px 4px, rgba(230, 77, 59, .25) 0 4px 8px, rgba(230, 77, 59, .25) 0 8px 16px, rgba(230, 77, 59, .25) 0 16px 32px;
+    }
+  }
+  
+  a:hover {
+    text-decoration: none;
+    transform: scale(1.05) rotate(-1deg);
+  }
+  
+  .svg-inline--fa.fa-w-14 {
+    width: .875em;
+  }
+  

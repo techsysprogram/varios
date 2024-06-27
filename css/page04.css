@@ -1,0 +1,233 @@
+.techsys-center-wrapper {
+    position: relative;
+    height: 90vh; /* Ajustez la hauteur selon vos besoins */
+}
+
+/* Définition des classes CSS */
+.techsys-container {  
+    background-image: url('https://plan-a.ca/wp-content/uploads/2022/12/4800_paul_pouliot_30207_web-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+
+    
+    position: absolute;
+    /* top: 50%; */
+    top: calc(50% + 20px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    width: 100%;
+    max-width: 400px; /* Largeur maximale */
+    margin: 0 auto; /* Centrage horizontal */
+    background-color: #d37d4c; /* Fond bleu clair */
+    min-height: 600px; /* Hauteur minimale de 800px */
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Centrage vertical */
+    
+    justify-content: center; /* Centrez verticalement */
+
+    flex-direction: column; /* Aligner les éléments verticalement */
+
+    
+    border: 1px solid; /* Définit une bordure solide de 2px */
+    border-color: rgb(177, 175, 175); /* Bordure rouge */
+    
+    border-radius: 8px; /* Arrondi les coins de la bordure à 15px */
+    /* border-radius: 10px; */
+    overflow: hidden; /* Pour empêcher le contenu de déborder du contour */
+}
+
+.techsys-top-section {
+    /* opacity: 50%; */
+    /* opacity: 30%; */
+    width: 100%;
+    height: 120px;
+    /* background-color: rgb(255, 255, 255,0.5);  /*Fond jaune */ 
+
+    
+    /* height: 100%; */
+    border: none;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: row;
+    /*background-color: rgba(216, 213, 213, 0.3);  Fond transparent avec une opacité de 50% */
+    background-color: rgb(255, 255, 255,0.3);
+    
+    /* margin-bottom: 20px; */
+}
+
+.techsys-element {    
+    /* opacity: 50%; */
+    /* padding: 20px; */
+    /*border: 2px solid #3498db;  Bordure solide bleu clair */
+    /*border-radius: 15px;  Coins arrondis */
+    /*background-color: #3498db;  Fond bleu clair */
+    width: 100%;    
+    /*height: 100%;  Occupera la hauteur totale du .techsys-container */
+    height: 430px;
+    align-items: center; /* Centrage vertical */
+    flex-direction: column; /* Aligner les éléments verticalement */
+}
+
+
+.techsys-botton-section {
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+    background-color: rgb(8, 8, 8); /* Fond jaune */
+    z-index: 3;
+    
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Centrage vertical */    
+    justify-content: center; /* Centrez verticalement */
+    flex-direction: column; /* Aligner les éléments verticalement */
+}
+
+
+
+
+
+
+/* Styles pour les mini cartes */
+.mini-card-section {
+    /* padding: 50px; */
+    /* padding: 20px , 50px , 50px, 20px; */
+    padding: 40px 50px 10px 50px; /* Padding de 10px en haut, 20px à droite, 15px en bas, et 30px à gauche */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 colonnes égales */
+    gap: 20px; /* Espace entre les mini cartes */
+    /* Pour centrer les mini cartes */
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .mini-card {
+    opacity: 0.7; /* Opacité de 50% */
+  
+    background-color: #f0f0f0;
+    border: 1px solid #b4b2b2;
+    border-radius: 10px;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+    
+    line-height: 50px; /*50px Ajustez la hauteur selon vos besoins */
+    /*height: auto; 100px Ajustez la hauteur selon vos besoins */
+    /* height: 100%; */
+  }
+  
+  .mini-card i {
+    margin-top: 15px; /* Espacement entre l'icône et le texte */
+    font-size: 1.6em; /* Taille de police pour agrandir l'icône */
+    color: #3b3b3b; /* Changer la couleur des icônes en gris */
+  }
+
+  
+  .techsys-arrow-button{    
+    display: flex;
+    /* margin: 0px, 50px ,20px,50px; Centrer horizontalement */
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+    /*margin: 0 auto;  Centrer horizontalement */
+    margin-top: 10px;
+  }
+
+
+  .techsys-arrow-button i {  
+    top: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #b4b2b2;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    
+    /*height: auto; 100px Ajustez la hauteur selon vos besoins */
+    /* height: 100%; */
+  }
+  
+  .techsys-arrow-button label {  
+    /* opacity: 50%; */
+    background-color: rgb(255, 255, 255,0.2);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    
+    /*height: auto; 100px Ajustez la hauteur selon vos besoins */
+    /* height: 100%; */
+  }
+
+  
+
+.image-container {
+    /* padding-top: 10px; */
+    padding: 10px;
+    text-align: center;
+    /* margin-right: 20px; */
+  }
+  
+  .image-container img {
+   
+    object-fit: cover;
+  
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #add8e6;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 1);
+  }
+  
+  
+  
+  .text-container {
+    padding: 15px;
+    flex-grow: 0; /* Ne pas agrandir automatiquement le conteneur de texte */
+    flex-shrink: 1; /* Permettre au conteneur de texte de se réduire s'il n'y a pas assez de place */
+    flex-basis: auto; /* Ajuster la largeur automatiquement en fonction du contenu */
+  }
+  
+  .text-container h2 {
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+    margin-top: 0;
+  }
+  
+  .techsys-container .techsys-titre-app {
+    font-size: 16px;
+    color: #1e0a57;
+    font-weight: bold;
+    margin-top: 0;
+    /* display: flex; */
+    padding: 15px;
+    /*align-items: center;  Centrer horizontalement */
+    /*justify-content: center;  Centrer verticalement */
+    text-align: center; /* Centrer le texte horizontalement */
+    margin: 0; /* Réinitialiser les marges par défaut */
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    color: #3f3f3f;
+  }
+
+/* Media query pour le rendu responsive */
+@media screen and (max-width: 600px) {
+    /*.techsys-element {
+        padding: 10px;  Réduire le rembourrage pour les petits écrans 
+    }*/
+}
+
+@media screen and (max-height: 700px) {
+    .techsys-container {
+        top: 0%; /* Ou la valeur que vous préférez */
+        transform: translateX(-50%);
+    }
+}
+

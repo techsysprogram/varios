@@ -1,0 +1,21 @@
+/* creer petite animation de loader */
+#loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px; /* La moitié de la largeur */
+    margin-top: -15px; /* La moitié de la hauteur */
+    z-index: 9999; /* Pour s'assurer que le loader est au-dessus de tout le reste */
+    /*display: none;  Initialement caché */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

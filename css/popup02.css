@@ -1,0 +1,73 @@
+.techsys-popup01-popup-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.techsys-popup01-popup {
+    background-color: #fff;
+    padding: 30px; /* Augmentation du padding global */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Ajout d'espace entre chaque élément dans la colonne */
+}
+
+.techsys-popup01-close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.techsys-popup01-close-button:hover {
+    background-color: #cc0000;
+}
+
+
+
+.techsys-popup01-dropdown {
+    padding: 20px; /* Augmentation du padding */
+    margin-top: 20px;
+}
+
+.techsys-popup01-buttons {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.techsys-popup01-yes-button,
+.techsys-popup01-no-button {
+    padding: 12px 24px; /* Augmentation du padding */
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.techsys-popup01-yes-button:hover,
+.techsys-popup01-no-button:hover {
+    background-color: #0056b3;
+}
